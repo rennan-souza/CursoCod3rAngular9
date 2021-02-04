@@ -1,0 +1,32 @@
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Produto</th>
+            <th>Price</th>
+            <th>Editar</th>
+            <th>Excluir</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of products">
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.price | currency: 'BRL' }}</td>
+            <td>
+                <a routerLink="/products/update/{{ product.id }}">
+                    <i class="material-icons edit">
+                        edit
+                    </i>
+                </a>
+            </td>
+            <td>
+                <a routerLink="/products/delete/{{ product.id }}">
+                    <i class="material-icons delete">
+                        delete
+                    </i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.99
+    },
+    {
+      "id": 2,
+      "name": "Mac Book Pro",
+      "price": 12000
+    },
+    {
+      "id": 3,
+      "name": "Galaxy S20+",
+      "price": 4999.99
+    },
+    {
+      "name": "Geladeira LG Inox",
+      "price": "8899.99",
+      "id": 4
+    },
+    {
+      "name": "Iphone",
+      "price": "8899.99",
+      "id": 5
+    },
+    {
+      "name": "Vídeo Game",
+      "price": "3999.99",
+      "id": 6
+    }
+  ]
+}

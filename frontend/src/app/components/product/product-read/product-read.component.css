@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tbody tr:hover {
+    background-color: #3f51b5;
+    color: #FFF;
+}
+
+i.edit {
+    color: #d9cd26;
+}
+
+i.delete {
+    color: #e35e6b;
+}
